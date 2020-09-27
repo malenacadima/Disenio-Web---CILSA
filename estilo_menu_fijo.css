@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.uno{
+  width: 900px;
+  height: 50px;
+  margin: auto;
+}
+
+.uno li{
+  list-style-type: none;
+  background-color: #f23232;
+  width: 150px;
+  margin: 8px;
+  float: left;
+  text-align: center;
+  border: medium solid #333;
+  height: 50px;
+}
+
+.uno a{
+  font-family: arial;
+  text-transform: uppercase;
+  font-weight: bold;  /*letra negrita*/
+  color: #000;
+  display: block;
+  padding-bottom: 0px;
+  padding: 15px 0px;
+}
+
+.uno a:link{
+  color: #000;
+  text-decoration: none;
+}
+
+.uno a:visited{
+  color: #fc0;
+}
+
+.uno a:hover{
+  background-color: #f99;
+}
+
+.uno a:active{
+  color: #485;
+}

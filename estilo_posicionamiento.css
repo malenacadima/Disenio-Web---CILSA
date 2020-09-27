@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.p_relative{
+  width: 1200px;
+  height: auto;
+  position: relative;
+  background-color: #dfe6e9;
+}
+
+.p_absolute{
+  width: 150px;
+  height: 100px;
+  background-color: #0984e3;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.cabecera{
+  width: 950px;
+  height: 150px;
+  background-color: #2d3436;
+}
+
+.p_fijo{
+  width: 150px;
+  height: 100px;
+  background-color: #fab1a0;
+  position: fixed;
+  left: 1000px;
+  top: 30px;
+}
+
+.menu{
+  width: 950px;
+  height: 35px;
+  background-color: #55efc4;
+}
+
+.principal{
+  width: 950px;
+  height: 580px;
+  background-color: #6c5ce7;
+}
+
+.principal .izquierdo{
+  width: 200px;
+  height: 230px;
+  background-color: #a29bfe;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.centro{
+  width: 380px;
+  height: 230px;
+  background-color: #a29bfe;
+  position: relative;
+  top: -210px;
+  left: 255px;
+}
+
+.centro .centrouno{
+  width: 130px;
+  height: 200px;
+  background-color: #ffeaa7;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.centro .centrodos{
+  width: 200px;
+  height: 200px;
+  background-color: #ffeaa7;
+  position: relative;
+  left: 165px;
+  bottom: 185px;
+}
+
+.derecho{
+  width: 250px;
+  height: 230px;
+  background-color: #a29bfe;
+  position: relative;
+  left: 660px;
+  top: -440px;
+}
+
+.final{
+  width: 890px;
+  height: 290px;
+  background-color: #a29bfe;
+  position: relative;
+  top: -420px;
+  left: 20px;
+}
+
+.pie{
+  width: 950px;
+  height: 30px;
+  background-color: #00b894;
+}

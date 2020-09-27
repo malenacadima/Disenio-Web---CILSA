@@ -1,0 +1,74 @@
+*{margin: 0px;
+padding: 0px;}
+
+/* tamaño y color a nuestro contenedor */
+header{
+    width: 100%;
+    background-color: yellow;
+}
+/* desaparecer el Label */
+#btn-menu{
+    display: none;
+}
+/* el label le damos tamaño y forma ( en este caso la imagen que esta dentro)*/
+header label{
+    display: none;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+/* el efecto del mouse al pasar sobre el label */
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+/* usamos el flex para los li sean cajas flexibles */
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+/* estilos a los Link que tenemos dentro de los li */
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: tomato;
+    text-decoration: none;
+}
+
+.menu li{
+    border-right: 1px solid white;
+}
+/* el efecto del mouse al pasar sobre los li */
+.menu li:hover{
+    background: rgba(0,0,0,0.3);}
+
+    /* indicamos que cuando el ancho sea menor a 768px
+     nuestro label (nuestra imagen) se muestre */
+    @media (max-width:768px){
+        header label{
+            display: block;
+        }
+        .menu{
+            position: absolute;
+            background: yellow;
+            width: 70%;
+            margin-left: -70%; /*escondemos nuestro menu*/
+            transition: all 0.5s;
+        }
+/* flex-direction ya no sera una fila sino na columna  */
+        .menu ul{
+            flex-direction: column;
+        }
+
+        .menu li{
+            border-top: 1px solid white;
+        }
+/* le devuelve a la class menu y devuelve el margen 0 para que se muestre */
+        #btn-menu:checked ~ .menu{
+            margin: 0px;
+
+        }
+    }

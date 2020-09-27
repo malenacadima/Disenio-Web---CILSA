@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+.principal{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background-color: #4b4b4b;
+  margin: 20px auto;
+}
+
+.amarillo{
+  width: 100px;
+  height: 100px;
+  background-color: #fffa65;
+  position: relative;
+}
+
+.naranja{
+  width: 100px;
+  height: 100px;
+  background-color: #ffaf40;
+  position: relative;
+  left: 100px;
+}
+
+.rojo{
+  width: 100px;
+  height: 100px;
+  background-color: #ff4d4d;
+  position: relative;
+  left: 200px;
+}
+
+.violeta{
+  width: 100px;
+  height: 100px;
+  background-color: #cd84f1;
+  position: relative;
+  left: 300px;
+}

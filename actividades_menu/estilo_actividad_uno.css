@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: #54a0ff;
+}
+
+h1{
+  color: white;
+  font-family: arial;
+  text-align: center;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+
+nav{
+  width: 20%;
+  margin: 2.5%;
+  height: auto;
+  background-color: #341f97 ;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+ol li{
+  list-style: none;
+  width: 100%;
+}
+
+.triangulo{
+  width: 0;
+  height: 0;
+  margin: 20px 0px 20px 20px;
+  border-left: 20px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  display: inline-block;
+
+}
+
+.item{
+  border-bottom: dotted 8px white;
+  display: inline-block;
+  float: right;
+  width: 50%;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+ol li a{
+  color: white;
+  font-family: arial;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+aside{
+  width: 75%;
+  background-color: #2e86de;
+  display: inline-block;
+  float: right;
+}
+
+.caja_misteriosa{
+  width: 95%;
+  background-color: white;
+  margin: 2% auto;
+  border-radius: 10px;
+}
+
+h2{
+  padding: 30px 0px 0px 30px;
+  font-family: arial;
+  color: #2d3436;
+}
+
+p{
+  padding: 30px;
+  text-align: justify;
+  color: #2d3436;
+  font-family: Verdana;
+  line-height: 30px;
+
+}

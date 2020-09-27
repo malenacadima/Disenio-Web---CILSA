@@ -1,0 +1,51 @@
+/* Quitamos todos los espacios que nos da el navegador */
+* {margin:0px;
+    padding:0px;
+}
+/* propiedades a nuestra caja header tamaño y centramos */
+ #header {
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Quitamos los estilos de ul y li */
+ul, li {
+    list-style:none;
+}
+/* hacemos flotar a los li hijos de la clase nav ".nav" */
+.nav > li {
+    float:left;
+}
+/* damos estilos a cada elemento) */
+.nav li a {
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+/* :hover efecto de cambio de color al pasar el mouse */
+.nav li a:hover {
+    background-color:#434343;
+}
+
+/* Aca ocultamos los Submenu */
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+/*Se mestran los submenu al pasar el mouse*/
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+/* lo ubicamos a la derecha de nuestro menú */
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}

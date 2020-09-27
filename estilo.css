@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedor{
+  width: auto;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: #cacaca;
+  text-align: center;
+}
+
+header{
+  width: calc(auto-20px);
+  height: 200px;
+  background-color: black;
+}
+
+nav{
+  white: calc(auto-20px);
+  height: 50px;
+  background-color: pink;
+}
+
+article{
+  width: calc(auto-20px);
+  height: 400px;
+  background-color: #9A9A9A;
+}
+
+ul{
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 25px;
+  font-family: arial;
+}
+
+footer{
+    width: calc(auto-20px);
+    height: 30px;
+    background-color: #333;
+}

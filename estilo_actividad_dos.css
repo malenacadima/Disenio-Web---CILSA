@@ -1,0 +1,53 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+background-color: #f06;
+text-align: center;
+}
+
+.contenedor{
+  width: 600px;
+  height: auto;
+  margin: auto;
+  background-color: black;
+  padding: 3px 0px;
+}
+
+.caja_fija{
+  height: 150px;
+  color: #2f3542;
+  background-color: #ced6e0;
+  margin: 10px 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 25px;
+  border: solid 4px white;
+}
+
+#caja_fija_especial{
+  height: 150px;
+  color: #2f3542;
+  background-color: #f1f2f6;
+  margin: 10px 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+p{
+  padding-top: 15px;
+  text-align: left;
+  font-family: serif;
+  font-size: 15pt;
+}
+
+h3{
+  text-align: left;
+  color: #F06;
+  padding-bottom: 5px;
+  font-family: cursive;
+  border-bottom: dotted 3px black;
+}

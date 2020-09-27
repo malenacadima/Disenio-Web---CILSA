@@ -1,0 +1,26 @@
+nav{
+  width: 700px;
+  height: auto;
+  margin: auto;
+}
+
+li{
+  list-style: none;
+  margin: 5px;
+  background-image: url(bg.png);
+  background-repeat:round;
+  width: auto;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+
+a{
+  color: black;
+  font-family: arial;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
